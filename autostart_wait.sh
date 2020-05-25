@@ -4,4 +4,3 @@ sleep 10
 #xmodmap ~/.xmodmap-code &
 fcitx &
 #/usr/lib/gsd-xsettings &
-~/scripts/start-music.sh &
