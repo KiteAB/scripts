@@ -4,6 +4,7 @@ picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -
 /usr/lib/gsd-xsettings &
 ~/.config/polybar/launch.sh &
 xmodmap ~/.xmodmap-code
+~/scripts/start-music.sh
 
 sleep 2
 ~/scripts/i3/autostart-wait.sh &
