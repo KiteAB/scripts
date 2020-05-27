@@ -1,2 +1,7 @@
 #!/bin/bash
-xmodmap ~/.xmodmap-game
+if [ ! -f "~/.xmodmap-game" ]
+then
+	xmodmap ~/.xmodmap-game
+else
+	echo "xmodmap file not found."
+fi
