@@ -5,11 +5,11 @@
 picom -b
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
-#/bin/bash ~/scripts/setxmodmap-code.sh &
 /bin/bash ~/scripts/wp-autochange.sh &
 nm-applet &
 xfce4-power-manager &
 fcitx &
+/bin/bash ~/scripts/setxmodmap-code.sh &
 #xfce4-volumed-pulse &
 #/bin/bash ~/scripts/run-mailsync.sh &
 #~/scripts/start-music.sh &
