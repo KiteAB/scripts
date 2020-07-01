@@ -8,6 +8,7 @@
 picom -b
 nm-applet &
 xfce4-power-manager &
+kdeconnect-indicator &
 fcitx &
 #xfce4-volumed-pulse &
 #/bin/bash ~/scripts/run-mailsync.sh &
