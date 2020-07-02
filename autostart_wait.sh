@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sleep 10
-#/usr/lib/gsd-xsettings &
+xinput disable "AT Translated Set 2 keyboard"
