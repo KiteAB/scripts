@@ -12,5 +12,5 @@ xfce4-power-manager &
 kdeconnect-indicator &
 fcitx &
 #xfce4-volumed-pulse &
-#/bin/bash ~/scripts/run-mailsync.sh &
+/bin/bash ~/scripts/run-mailsync.sh &
 ~/scripts/autostart_wait.sh &
