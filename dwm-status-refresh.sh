@@ -140,7 +140,7 @@ export IDENTIFIER="unicode"
 #. "$DIR/dwmbar-functions/dwm_resources.sh"
 #. "$DIR/dwmbar-functions/dwm_battery.sh"
 #. "$DIR/dwmbar-functions/dwm_mail.sh"
-. "$DIR/dwmbar-functions/dwm_backlight.sh"
+#. "$DIR/dwmbar-functions/dwm_backlight.sh"
 . "$DIR/dwmbar-functions/dwm_alsa.sh"
 #. "$DIR/dwmbar-functions/dwm_pulse.sh"
 . "$DIR/dwmbar-functions/dwm_weather.sh"
@@ -158,7 +158,7 @@ vel_trans=$(get_velocity $transmitted_bytes $old_transmitted_bytes $now)
 
 #xsetroot -name " 💿$(print_mem)MB ⬆️ $vel_trans ⬇️ $vel_recv   $(dwm_alsa) $(dwm_backlight)   $(print_bat)  $(show_record) $(print_date) "
 #xsetroot -name " ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_backlight)  $(print_bat) $(show_record) $(print_date) "
-xsetroot -name " ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_backlight)  $(print_bat)  $(dwm_weather)  $(print_date) "
+xsetroot -name " 💿$(print_mem)M ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_weather)  $(print_bat)  $(print_date) "
 
 # Update old values to perform new calculations
 old_received_bytes=$received_bytes
