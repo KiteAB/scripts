@@ -116,11 +116,11 @@ print_bat(){
 		#echo -e "${charge}"
 	#fi
 	#echo "$(get_battery_charging_status) $(get_battery_combined_percent)%, $(get_time_until_charged )";
-	echo "$(get_battery_charging_status) $(get_battery_combined_percent)% $(get_time_until_charged )";
+	echo "[ $(get_battery_charging_status) $(get_battery_combined_percent)% $(get_time_until_charged ) ]";
 }
 
 print_date(){
-	date '+%Y-%m-%d %H:%M'
+	date '+%Y年%m月%d日 %H:%M'
 }
 
 show_record(){
@@ -158,7 +158,7 @@ vel_trans=$(get_velocity $transmitted_bytes $old_transmitted_bytes $now)
 
 #xsetroot -name " 💿$(print_mem)MB ⬆️ $vel_trans ⬇️ $vel_recv   $(dwm_alsa) $(dwm_backlight)   $(print_bat)  $(show_record) $(print_date) "
 #xsetroot -name " ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_backlight)  $(print_bat) $(show_record) $(print_date) "
-xsetroot -name " 💿$(print_mem)M ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_weather)  $(print_bat)  $(print_date) "
+xsetroot -name " 💿 $(print_mem)M ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_weather)  $(print_bat)  $(print_date) "
 
 # Update old values to perform new calculations
 old_received_bytes=$received_bytes
