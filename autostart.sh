@@ -10,7 +10,7 @@ picom -b
 nm-applet &
 xfce4-power-manager &
 kdeconnect-indicator &
-fcitx &
+fcitx5 &
 #xfce4-volumed-pulse &
 /bin/bash ~/scripts/run-mailsync.sh &
 ~/scripts/autostart_wait.sh &
