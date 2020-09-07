@@ -17,3 +17,12 @@ zsh ~/.zim/zimfw.zsh install
 zimfw install
 zimfw update
 zimfw upgrade
+git clone https://github.com/KiteAB/st ~/prog/st
+cd ~/prog/st
+sudo make clean install
+cd ~/
+git clone https://github.com/KiteAB/dwm ~/prog/dwm
+cd ~/prog/dwm
+sudo make clean install
+cd ~/
+git clone https://github.com/KiteAB/.emacs.d ~/.emacs.d
