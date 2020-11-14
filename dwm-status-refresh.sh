@@ -157,8 +157,9 @@ vel_recv=$(get_velocity $received_bytes $old_received_bytes $now)
 vel_trans=$(get_velocity $transmitted_bytes $old_transmitted_bytes $now)
 
 # xsetroot -name " 💿 $(print_mem)M ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa) $(dwm_weather)  $(print_bat)  $(print_date) "
-# xsetroot -name " 💿 $(print_mem)M $(dwm_alsa)  $(print_bat)  $(print_date) "
 # xsetroot -name " 💿 $(print_mem)M ⬆️ $vel_trans ⬇️ $vel_recv $(dwm_alsa)  $(print_bat)  $(print_date) "
+
+# xsetroot -name " 💿 $(print_mem)M $(dwm_alsa)  $(print_bat)  $(print_date) "
 xsetroot -name " 💿 $(print_mem)M $(dwm_alsa) $(dwm_weather)  $(print_bat)  $(print_date) "
 
 # Update old values to perform new calculations
