@@ -11,6 +11,7 @@ xfce4-power-manager &
 #kdeconnect-indicator &
 fcitx5 &
 #xfce4-volumed-pulse &
-/bin/bash ~/scripts/run-mailsync.sh &
+#/bin/bash ~/scripts/run-mailsync.sh &
+/bin/bash ~/scripts/kb-off.sh &
 /bin/bash ~/scripts/setxmodmap-colemak.sh &
-~/scripts/autostart_wait.sh &
+/bin/bash ~/scripts/autostart_wait.sh &
