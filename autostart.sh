@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #/bin/bash ~/prog/dwm/dwm_bar.sh &
-/bin/bash ~/prog/dwm-1/dwm_bar.sh &
+/bin/bash ~/Github/dwm-bar/dwm_bar.sh &
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
 picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
