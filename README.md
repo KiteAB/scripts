@@ -1,5 +1,5 @@
-# Scripts
+# scripts
 
-**Based on [repo](https://github.com/theniceboy/scripts)**
+Personal useful scripts.
 
-WIP
+If you want to use removed scripts, you'll may be interesting in [this repository](https://github.com/theniceboy/scripts)
